@@ -1,14 +1,43 @@
-image-hover {
-    transition: transform 0.3s ease; /* Smooth transition effect */
+.checkbox {
+  transform: scale(1.5);
+  margin-top: 25px;
+  margin-left: 25px;
 }
 
-.image-hover:hover {
-    transform: scale(1.1); /* Increase the size by 10% on hover */
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-img {
-    width: 150px; 
-    height: 150px; 
-    border-radius: 5px;
-    margin: 10px;
+.image-container {
+  margin: 10px;
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+  border: 1px solid #00000088;
+}
+
+.image-container:hover {
+  opacity: 0.5;
+}
+
+.image-upload-container {
+  margin: 10px;
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+  border: 1px dashed #00000088;
+}
+
+@media (max-width: 768px) {
+  .images-container {
+    justify-content: center;
+  }
 }
