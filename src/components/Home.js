@@ -24,7 +24,7 @@ export default function Home() {
     <>
         <div style={{margin: "20px"}}>
             {Object.values(images).map((image, index) => (
-            <img key={index} src={image} alt={`Image ${index + 1}`} width="150" height="150" />
+            <img key={index} src={image} alt={`Image ${index + 1}`} width="150" height="150" style={{padding:'10px'}}/>
         ))}
         </div>
     </>
