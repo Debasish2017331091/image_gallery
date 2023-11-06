@@ -3,7 +3,7 @@ import Home from "./components/Home";
 function App() {
   return (
     <>
-    <div style={{margin:"10px", backgroundColor:"black"}}>
+    <div style={{backgroundColor:"#ffffff", borderRadius:'10px', marginTop:'20p'}}>
      <Home></Home>
     </div>
     </>

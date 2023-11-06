@@ -1,0 +1,14 @@
+image-hover {
+    transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+.image-hover:hover {
+    transform: scale(1.1); /* Increase the size by 10% on hover */
+}
+
+img {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 5px;
+    margin: 10px;
+}
