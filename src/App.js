@@ -1,10 +1,10 @@
+import Home from "./components/Home";
+
 function App() {
   return (
     <>
-    <div>
-      <h1>
-        Sukanto Kumar Das 3
-      </h1>
+    <div style={{margin:"10px", backgroundColor:"black"}}>
+     <Home></Home>
     </div>
     </>
   );
